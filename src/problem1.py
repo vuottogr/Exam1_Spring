@@ -135,6 +135,13 @@ class Elevator(object):
 # ---------------------------------------------------------------------
 # ---------------------------------------------------------------------
 
+
+# ---------------------------------------------------------------------
+#     TODO: 7. Write methods, AS NEEDED, to allow passengers to exit
+#      the elevator.  Show that your solution works with a test case. (2 pts)
+#     Write the testing code (below) before writing this function.
+# ---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 ###############################################################################
 # The TEST functions for the  Elevator  class begin here.
 ###############################################################################
@@ -164,7 +171,7 @@ def run_test_go_to_floor():
     print('-----------------------------------------------------------')
     print('Testing the   go_to_floor   method of the Elevator class.')
     print('-----------------------------------------------------------')
-    #     TODO: 3. Write tests for the go_to_floor method. (3 pts)
+    #     TODO: 3. Write tests for the go_to_floor method. (2 pts)
     #     A recommended format is shown below.  Be sure to
     #     add your actual code where indicated.  Include two
     #     test cases - one that works and one that returns False
@@ -192,7 +199,7 @@ def run_test_get_passengers():
     print('-----------------------------------------------------------')
     print('Testing the   get_passengers   method of the Elevator class.')
     print('-----------------------------------------------------------')
-    #     TODO: 5. Write tests for the get_passengers method. (3 pts)
+    #     TODO: 5. Write tests for the get_passengers method. (2 pts)
     #     A recommended format is shown below.  Be sure to
     #     add your actual code where indicated.  Include several
     #     test cases - at least one that works
