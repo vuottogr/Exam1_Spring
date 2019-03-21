@@ -120,6 +120,7 @@ class Elevator(object):
           #   e1.num_floors is 18
           #   you will update the number of people on the elevator
           #   unless the capacity has already been exceeded.
+          #   True is returned if all passengers are successfully added
 
           e1 = Elevator(20, 18)
           e1.get_passengers(35)
