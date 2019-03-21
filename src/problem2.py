@@ -1,7 +1,13 @@
 """
 Exam 1, problem 3. 25 Points Total
 
-Modified by Dr. Brackin, 
+Modified by Dr. Brackin,
+There are several parts of this problem that are straightforward.
+I suggest that you start with those elements and add the more
+difficult elements as time permits.
+Every student should be able to print the string and the
+length of the string.  If you don't remember how, LOOK at
+your programming sessions!!!   
 PUT YOUR NAME HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
