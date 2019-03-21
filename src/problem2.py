@@ -40,11 +40,13 @@ def test_problem2():
     #  The given string is civic
     print('*********************************************')
     print('Test case 1 Expected: ')
+    print('*********************************************')
     string_of_characters = 'civic'
-    print(string_of_characters)
-    print(5)
-    print(0)
-    print('civic')
+    print('String entered: ',string_of_characters)
+    print('Length of string: ',5)
+    print('Number of alphabetic characters: ',5)
+    print('Number of digits: ', 0)
+    print('Reversed string is: civic')
     print('The user entered a palindrome')
     print()
     print('*********************************************')
@@ -58,7 +60,7 @@ def test_problem2():
 def problem3(string_of_characters):
     """
     What comes in:
-          -- a string of characters
+          -- a string of characters that contains letters of the alphabet and/or numbers
         What goes out:
           Nothing
         Side effects:
@@ -66,7 +68,7 @@ def problem3(string_of_characters):
       -- The string entered by the user
       -- The length of the string entered by the user
       -- The number of alphabetic characters in the string
-      -- The number of digits in the string
+      -- The number of digits (integers 0-9) in the string
       -- The reverse string entered by the user
       -- If the string is a palindrome - it prints, the user entered a
       -- palindrome
@@ -90,27 +92,27 @@ def problem3(string_of_characters):
 
     Here are some examples:
        string_of_characters = 'eye'
-       eye
-       3
-       3
-       0
-       eye
+       String entered: eye
+       Length of string: 3
+       Number of alphabetic characters: 3
+       Number of digits: 0
+       Reversed string: eye
        The user entered a palindrome
 
        string_of_characters = 'abc1cba'
-       abc1cba
-       7
-       6
-       1
-       abc1cba
+       String entered: abc1cba
+       Length of string: 7
+       Number of alphabetic characters: 6
+       Number of digits: 1
+       Reversed string: abc1cba
        The user entered a palindrome
 
        string_of_characters = 'a12b'
-       a12b
-       4
-       2
-       2
-       b21a
+       String entered: a12b
+       Length of string: 4
+       Number of alphabetic characters: 2
+       Number of digits: 2
+       Reversed string: b21a
        The user entered a normal string
     """
     # TODO: 3. Implement this function.
