@@ -71,6 +71,7 @@ class Elevator(object):
           -- a positive integer, floor, that is the desired floor
         What goes out:
           --Returns False if the floor requested is not a valid floor
+          --Returns True if the floor is updated to the requested floor
         Side effects:
           -- Sets the elevator's current floor to floor given, unless
              the value of floor is greater than the number of floors allowed.
@@ -82,6 +83,7 @@ class Elevator(object):
           #   e1.capacity is 20
           #   e1.num_floors is 18
           #   the current floor is set to 4
+          #   True is returned by the method
 
           e1 = Elevator(20, 18)
           e1.go_to_floor(35)
@@ -183,8 +185,8 @@ def run_test_go_to_floor():
     expected_capacity = 20
     expected_num_floors = 18
     expected_go_to_floor = 4
-    print("Expected:", expected_capacity, expected_num_floors,expected_go_to_floor)
-    print("Actual:  ")
+    print('Expected: go_to_floor returns :', True)
+    print("Expected:", expected_capacity, expected_num_floors, expected_go_to_floor)
     ################################################################
     #
     #     Add your values for actual below here
