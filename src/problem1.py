@@ -215,14 +215,17 @@ def run_test_get_passengers():
     expected_capacity = 20
     expected_num_floors = 18
     expected_num_passengers = 2
-    print("Expected:", expected_capacity, expected_num_floors,expected_num_passengers)
-    print("Actual:  ")
+    print('Expected passengers returns ', True)
+    print("Expected:", expected_capacity, expected_num_floors, expected_num_passengers)
+
     ################################################################
     #
     #     Add your values for actual below here
     #
     ################################################################
+    print("Actual:  ")
     print()
+
 
 def print_failure_message():
     print('  *** FAILED the above test. ***')
