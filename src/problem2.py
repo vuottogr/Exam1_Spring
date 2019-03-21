@@ -1,5 +1,5 @@
 """
-Exam 1, problem 3. 25 Points Total
+Exam 1, problem 3. 35 Points Total
 
 Modified by Dr. Brackin,
 There are several parts of this problem that are straightforward.
