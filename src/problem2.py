@@ -8,8 +8,8 @@ difficult elements as time permits.
 Every student should be able to print the string and the
 length of the string.  If you don't remember how, LOOK at
 your programming sessions!!!   
-PUT YOUR NAME HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+Elle Vuotto.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -61,6 +61,55 @@ def test_problem2():
     print('*********************************************')
     # TODO: 2. Write at least three reasonable test cases below.
     #         Three excellent test cases are worth 10 points
+
+    print('*********************************************')
+    print('Test case 2 Expected: ')
+    print('*********************************************')
+    string_of_characters = 'mom'
+    print('String entered: ',string_of_characters)
+    print('Length of string: ',3)
+    print('Number of alphabetic characters: ',3)
+    print('Number of digits: ', 0)
+    print('Reversed string is: mom')
+    print('The user entered a palindrome')
+    print()
+    print('*********************************************')
+    print('Test case 2 Actual: ')
+    problem3(string_of_characters)
+    print('*********************************************')
+
+    print('*********************************************')
+    print('Test case 3 Expected: ')
+    print('*********************************************')
+    string_of_characters = 'racecar'
+    print('String entered: ',string_of_characters)
+    print('Length of string: ',7)
+    print('Number of alphabetic characters: ',7)
+    print('Number of digits: ', 0)
+    print('Reversed string is: racecar01')
+    print('The user entered a palindrome')
+    print()
+    print('*********************************************')
+    print('Test case 3 Actual: ')
+    problem3(string_of_characters)
+    print('*********************************************')
+
+    print('*********************************************')
+    print('Test case 4 Expected: ')
+    print('*********************************************')
+    string_of_characters = 'yay'
+    print('String entered: ',string_of_characters)
+    print('Length of string: ',4)
+    print('Number of alphabetic characters: ',4)
+    print('Number of digits: ', 0)
+    print('Reversed string is: yay')
+    print('The user entered a normal string')
+    print()
+    print('*********************************************')
+    print('Test case 4 Actual: ')
+    problem3(string_of_characters)
+    print('*********************************************')
+
 
 
 def problem3(string_of_characters):
@@ -121,11 +170,46 @@ def problem3(string_of_characters):
        Reversed string: b21a
        The user entered a normal string
     """
-    # TODO: 3. Implement this function.
+    # done: 3. Implement this function.
     # To implement this function, you need to reverse a string.
     # If you write your own method to reverse a string and solve
     # the entire problem, you will get 25 points. If you use the
     # provided method reverseString(string),you will get 20 points
+
+    string = string_of_characters
+    length = len(string_of_characters)
+    print('String of characters:', string)
+    print('Length of string:', length)
+
+
+    totals = 0
+    for k in range(len(string_of_characters)):
+        m = string_of_characters[k]
+        if type(m)== str:
+            totals = totals + 1
+    print('Number of alphabetic characters:', totals)
+
+    total = 0
+    for k in range(len(string_of_characters)):
+        n = string_of_characters[k]
+        if type(n) == int:
+            total = total + 1
+    print('Number of digits:', total)
+
+    newstring = ''
+    for k in range(len(string_of_characters)):
+        string = string_of_characters[k]
+        string = string[::-1]
+        newstring = newstring + string
+    print('Reversed string:', newstring)
+    if newstring == string_of_characters:
+        print('The user entered a palindrome')
+    else:
+        print('The user entered a normal string')
+
+
+
+
 
 # -----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
