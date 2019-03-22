@@ -59,7 +59,7 @@ def test_problem2():
     print('Test case 1 Actual: ')
     problem3(string_of_characters)
     print('*********************************************')
-    # TODO: 2. Write at least three reasonable test cases below.
+    # done: 2. Write at least three reasonable test cases below.
     #         Three excellent test cases are worth 10 points
 
     print('*********************************************')
@@ -86,7 +86,7 @@ def test_problem2():
     print('Length of string: ',7)
     print('Number of alphabetic characters: ',7)
     print('Number of digits: ', 0)
-    print('Reversed string is: racecar01')
+    print('Reversed string is: racecar')
     print('The user entered a palindrome')
     print()
     print('*********************************************')
@@ -181,7 +181,6 @@ def problem3(string_of_characters):
     print('String of characters:', string)
     print('Length of string:', length)
 
-
     totals = 0
     for k in range(len(string_of_characters)):
         m = string_of_characters[k]
@@ -192,7 +191,7 @@ def problem3(string_of_characters):
     total = 0
     for k in range(len(string_of_characters)):
         n = string_of_characters[k]
-        if type(n) == int:
+        if type(n) == float:
             total = total + 1
     print('Number of digits:', total)
 
